@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Trang chủ</title>
+</head>
+<body class="font-fontBe">
+    <div class=" bg-colorMain py-[10px] ">
+        <div class="container mx-auto">
+            <div class="flex px-[16px]">
+                <div class="text-white font-fontBe flex-1 text-center pl-[12px]">
+                    Đăng ký để được giảm giá 20%. 
+                    <a class="underline" href="#">Đăng Ký Ngay</a>
+                </div>
+                <button><i class="fa-solid fa-xmark text-white sm:block hidden"></i></button>
+            </div>
+        </div>
+    </div> 
+    <header class="py-[24px]">
+        <div class="container mx-auto px-[16px]">
+            <div class="flex gap-[40px] md:justify-between ">
+                <button class="md:hidden"><i class="fa-solid fa-bars"></i></button>
+                <div class="font-[700] text-[32px] text-[colorMain] md:flex-none flex-1">28.SHOP</div>
+                <ul class="gap-[24px] font-[400] text-[16px] items-center md:flex hidden">
+                    <li>
+                        <a href="#">Giới thiệu</a>
+                    </li>
+                    <li>
+                        <a href="#">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Bài viết</a>
+                    </li>
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+                <div class="flex-1 rounded-[62px] border-none bg-colorSub py-[12px] lg:inline-block hidden">
+                    <button><i class="fa-solid fa-magnifying-glass text-[18px] bg-transparent font-[800] text-[gray] pl-[16px] pr-[12px]"></i></button>
+                    <input class="bg-transparent text-[16px] outline-none " placeholder="Tìm kiếm sản phẩm...">
+                </div>
+                <div class="py-[12px] flex gap-[12px]">
+                    <button class="search-mobile"><i class="fa-solid fa-magnifying-glass text-[18px] bg-transparent font-[800] text-[gray] pl-[16px]  lg:hidden text-[24px] text-colorMain"></i></button>
+                    <i class="fa-solid fa-cart-shopping text-[24px] text-colorMain"></i>
+                    <i class="fa-regular fa-circle-user text-[24px] text-colorMain"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bg-[#F2F0F1]">
+        <div class=" container 2xl:flex flex-wrap mx-auto px-[16px]">
+                <div class="2xl:w-[46%] w-[100%]">
+                    <div class="md:pt-[138px] pt-[40px] ">
+                        <div class="font-[900] md:text-[48px] text-[38px]">CHUYÊN THỜI TRANG</div>
+                        <div class="font-[900] md:text-[48px] text-[38px] ">PHONG CÁCH, HIỆN ĐẠI</div>
+                    </div>
+                    <div class="mt-[30px] font-[400] pr-[70px]">
+                        Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong cách của bạn.
+                    </div>
+                    <button class="sm:w-auto w-[100%]  bg-colorMain py-[16px] text-white rounded-[62px] px-[65px] md:my-[50px] my-[30px] sm:flex-none flex-1">Xem ngay</button>
+                    <ul class=" sm:gap-[32px] font-[700] md:text-[40px] text-[24px] md:mb-[134px] mb-[13px] mx-auto sm:flex-nowrap flex flex-wrap "> 
+                        <li class=" sm:w-auto w-[50%] sm:border-r border-[#0000001A] pr-[32px]  text-center">
+                            <p >200+</p>
+                            <p class="md:text-[16px] text-[12px] text-[#00000099]">Thương hiệu</p>
+                        </li>
+                        <li class=" sm:w-auto w-[50%] sm:border-r border-[#0000001A] pr-[32px] text-center">
+                            <p >2,000+</p>
+                            <p class="md:text-[16px] text-[12px] text-[#00000099]" >Sản phẩm chất lượng</p>
+                        </li>
+                        <li class="sm:w-auto w-[100%] text-center">
+                            <p >30,000+</p>
+                            <p class="md:text-[16px] text-[12px] text-[#00000099]">Khách hàng</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" 2xl:w-[54%] w-[100%] relative">
+                    <img src="assets/image/sec1.png" class="w-auto h-[100%] object-cover relative">
+                    <img src="assets/image/sec-1_starlon.svg" class="md:block hidden absolute top-[15%] right-[10%]">
+                    <img src="assets/image/starbe.svg" class="md:block hidden absolute top-[45%]">
+                </div>
+
+        </div>
+    </section>
+    <section class="bg-colorMain py-[44px]">
+        <div class="container gap-[60px] items-center mx-auto justify-center flex flex-wrap">
+            <img class="w-auto md:h-[32px] h-[23px]" src="assets/image/var.png">
+            <img class="w-auto md:h-[32px] h-[23px]" src="assets/image/zara.png">
+            <img class="w-auto md:h-[32px] h-[23px]" src="assets/image/gucci.png">
+            <img class="w-auto md:h-[32px] h-[23px]" src="assets/image/prada.png">
+            <img class="w-auto md:h-[32px] h-[23px]" src="assets/image/calvin.png">
+        </div>
+    </section>
+    <section>
+        <div class="container mx-auto  ">
+            <div class="font-[700] md:text-[48px] text-[32px]  md:py-[62px] py-[32px] mx-auto text-center ">
+                <p >THỜI TRANG MỚI</p>
+            </div>
+            <div class="font-[700] gap-[20px] rounded-[20px] border-none grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mx-[15px]">
+                <div class="inner-box">
+                    <img src="assets/image/Frame32.jpg" class="object-cover">
+                    <p class="">Áo Thun Nam Đơn Giản</p>
+                    <div class="flex gap-[15px] text-[14px]">
+                        <p class="text-[#ffd700]"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p class="text-[lightgray] font-[100]">5/5</p>
+                    </div>
+                    <p class="">120.000đ</p>
+                </div>       
+                <div class="inner-box">
+                    <img src="assets/image/Frame33.jpg" class="object-cover">
+                    <p class="">Áo Thun Nam Đơn Giản</p>
+                    <div class="flex gap-[15px] text-[14px]">
+                        <p class="text-[#ffd700]"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p class="text-[lightgray] font-[100]">5/5</p>
+                    </div>
+                    <div class="flex gap-[10px] items-center">
+                        <p class="">120.000đ</p>
+                        <p class="line-through text-[14px] text-[lightgray]" > 600.000đ</p>
+                        <p class="bg-[lightpink] rounded-[62px] py-[6px] px-[14px] text-[red] font-[300] text-[14px]" >-20%</p>
+                    </div>
+                </div>
+                <div class="inner-box">
+                    <img src="assets/image/Frame34.jpg" class="object-cover">
+                    <p class="">Áo Thun Nam Đơn Giản</p>
+                    <div class="flex gap-[15px] text-[14px]">
+                        <p class="text-[#ffd700]"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p class="text-[lightgray] font-[100]">5/5</p>
+                    </div>
+                    <p class="">120.000đ</p>
+                </div>
+                <div class="inner-box">
+                    <img src="assets/image/Frame38.jpg" class="object-cover">
+                    <p class="">Áo Thun Nam Đơn Giản</p>
+                    <div class="flex gap-[15px] text-[14px]">
+                        <p class="text-[#ffd700]"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p class="text-[lightgray] font-[100]">5/5</p>
+                    </div>
+                    <div class="flex gap-[10px] items-center">
+                        <p class="">120.000đ</p>
+                        <p class="line-through text-[14px] text-[lightgray]" > 600.000đ</p>
+                        <p class="bg-[lightpink] rounded-[62px] py-[6px] px-[14px] text-[red] font-[300] text-[14px]" >-20%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container bg-[#F0F0F0] font-[700]  text-center mx-auto xl:mt-[80px] lg:mt-[60px] mt-[40px] rounded-[40px]">
+            <div class="xl:py-[65px] lg:py-[45px] py-[28px] text-center xl:text-[48px] lg:text-[38px] text-[32px]">
+                <p >DANH MỤC NỔI BẬT</p>
+            </div>
+            <div class=" grid md:grid-cols-3 grid-cols-1 md:gap-[20px] gap-y-[16px] pb-[65px] xl:px-[64px] lg:px-[44px] px-[24px] ">
+                <div class="relative">
+                    <p class="absolute lg:pt-[26px] pt-[18px] xl:pl-[36px] lg:pl-[26px] pl-[16px] font-[700] xl:text-[36px] lg:text-[30px] text-[24px]">Đơn Giản</p>
+                    <img src="assets/image/dongian.jpg" class="rounded-[20px] w-[100%] md:h-[100%] sm:h-[250px] h-[190px] object-fill ">
+                </div>
+                <div class="relative md:col-span-2 col-span-1 truncate">
+                    <p class="absolute lg:pt-[26px] pt-[18px] xl:pl-[36px] lg:pl-[26px] pl-[16px] font-[700] xl:text-[36px] lg:text-[30px] text-[24px]">Lịch Lãm</p>
+                    <img src="assets/image/lichgian.jpg" class="rounded-[20px] w-full md:h-[100%] sm:h-[250px] h-[190px] object-cover">
+                </div>
+                <div class="relative md:col-span-2 truncate">
+                    <p class="absolute lg:pt-[26px] pt-[18px] xl:pl-[36px] lg:pl-[26px] pl-[16px] font-[700] xl:text-[36px] lg:text-[30px] text-[24px]">Dạ hội</p>
+                    <img src="assets/image/dahoi.jpg" class="rounded-[20px] w-full md:h-[100%] sm:h-[250px] h-[190px] object-cover ">
+                </div>
+                <div class="relative">
+                    <p class="absolute lg:pt-[26px] pt-[18px] xl:pl-[36px] lg:pl-[26px] pl-[16px] font-[700] xl:text-[36px] lg:text-[30px] text-[24px]">Gym</p>
+                    <img src="assets/image/gym.jpg" class="rounded-[20px] w-full md:h-[100%] sm:h-[250px] h-[190px] object-fill">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container py-[83px] mx-auto">
+            <div class="font-[700] xl:text-[48px] lg:text-[40px] text-[32px] ">
+                <p >CẢM NHẬN CỦA KHÁCH HÀNG</p>
+            </div>
+            <div class="grid md:grid-cols-3 mt-[38px] gap-[20px]">
+                <div class="rounded-[20px] border solid 1px [#0000001A] py-[28px] px-[32px]">
+                    <div class="icon">
+                        <p class="text-[#ffd700]"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="content">
+                        <p class="text-[20px] font-[700] py-[15px]"><b >Le Van A</b> <i class="fa-solid fa-circle-check text-[green]"></i></p>
+                        <p class="font-[400] text-[#00000099]">"Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."</p>
+                    </div>
+                </div>
+                <div class="rounded-[20px] border solid 1px [#0000001A] py-[28px] px-[32px]">
+                    <div class="icon">
+                        <p class="text-[#ffd700]"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="content">
+                        <p class="text-[20px] font-[700] py-[15px]"><b >Le Van A</b> <i class="fa-solid fa-circle-check text-[green]"></i></p>
+                        <p class="font-[400] text-[#00000099]">"Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."</p>
+                    </div>
+                </div>
+                <div class="rounded-[20px] border solid 1px [#0000001A] py-[28px] px-[32px]">
+                    <div class="icon">
+                        <p class="text-[#ffd700]"> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                    <div class="content">
+                        <p class="text-[20px] font-[700] py-[15px]"><b >Le Van A</b> <i class="fa-solid fa-circle-check text-[green]"></i></p>
+                        <p class="font-[400] text-[#00000099]">"Tôi rất ngạc nhiên trước chất lượng và kiểu dáng của những bộ quần áo từ 28.SHOP. Từ trang phục thường ngày đến trang phục thanh lịch, mọi món đồ tôi mua đều vượt quá sự mong đợi của tôi."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <section class="relative">
+        <div class="container bg-colorMain lg:flex flex-wrap py-[36px] lg:px-[64px] px-[32px] rounded-[20px] mx-auto ">
+            <div class="lg:w-[50%] w-[100%] mb-[20px]">
+                <p class="font-[700] xl:text-[40px] lg:text-[33px] text-[32px] text-[white]">CẬP NHẬT VỀ ƯU ĐÃI MỚI NHẤT CỦA CHÚNG TÔI</p>
+            </div>
+            <div class="lg:w-[50%] w-[100%] xl:pl-[20%] lg:pl-[10%] pl-[5%] ">
+                <div class="rounded-[62px] border-none bg-colorSub py-[12px]">
+                    <button><i class="fa-regular fa-envelope text-[18px] bg-transparent font-[800] text-[gray] ml-[16px]"></i></button>
+                    <input class="bg-transparent text-[16px] outline-none ml-[12px]" placeholder="Nhập email của bạn...">
+                </div>
+                <button class="bg-colorSub py-[12px] text-[#000000] rounded-[62px] mt-[14px] w-full">Đăng Ký Nhận Tin</button>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-colorSub pt-[140px] mt-[-92px]">
+        <div class="container mx-auto ">
+            <div class="flex gap-[153px] justify-center pb-[49px] border-b">
+                <div class="w-[20%]">
+                    <p class="font-[700] text-[33px]">28.SHOP</p>
+                    <p class="mt-[25px] mb-[35px] font-[400] text-[14px] text-[#00000099]">Chúng tôi có những bộ quần áo phù hợp với phong cách của bạn và bạn có thể tự hào khi mặc.</p>
+                    <div class="flex gap-[12px] text-[16px]">
+                        <a class="w-[28px] h-[28px] border border-[#00000033] rounded-[50%] bg-white inline-flex items-center justify-center"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="w-[28px] h-[28px] border border-[#00000033] rounded-[50%] bg-colorMain inline-flex items-center justify-center text-white"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="w-[28px] h-[28px] border border-[#00000033] rounded-[50%] bg-white inline-flex items-center justify-center"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <ul class="flex gap-[153px]">
+                        <li class="h-[100%]">
+                            <p class="font-[500] mb-[26px]">CÔNG TY</p>
+                            <ul class="font-[400] text-[#00000099] gap-[15px] flex flex-col">
+                                <li>Giới Thiệu</li>
+                                <li>Sản Phẩm</li>
+                                <li>Công Việc</li>
+                                <li>Việc Làm</li>
+                            </ul>
+                        </li>
+                        <li class="h-[100%]">
+                            <p class="font-[500] mb-[26px]">TRỢ GIÚP</p>
+                            <ul class="font-[400] text-[#00000099] gap-[15px] flex flex-col">
+                                <li>Hỗ Trợ Khách Hàng</li>
+                                <li>Thông Tin Đơn Hàng</li>
+                                <li>Điều Khoản & Điều Kiện</li>
+                                <li>Chính Sách</li>
+                            </ul>
+                        </li>
+                        <li class="h-[100%]">
+                            <p class="font-[500] mb-[26px]">FAQ</p>
+                            <ul class="font-[400] text-[#00000099] gap-[15px] flex flex-col">
+                                <li>Tài Khoản</li>
+                                <li>Quản Lý Đơn Hàng</li>
+                                <li>Đơn Hàng</li>
+                                <li>Thanh Toán</li>
+                            </ul>
+                        </li>
+                        <li class="h-[100%]">
+                            <p class="font-[500] mb-[26px]">TÀI NGUYÊN</p>
+                            <ul class="font-[400] text-[#00000099] gap-[15px] flex flex-col">
+                                <li>Sách Miễn Phí</li>
+                                <li>Bài Viết</li>
+                                <li>Kiến Thức</li>
+                                <li>Youtube</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="datcutequa flex justify-between">
+                <div class="text-[14px] font-[400] pt-[30px] text-[#00000099]">
+                    <p >© 2000-2021, All rights reserved</p>
+                </div>
+                <div class="flex pt-[20px] gap-[12px]">
+                    <img src="assets/image/visa.png">
+                    <img src="assets/image/2tron.png">
+                    <img src="assets/image/paypal.png">
+                    <img src="assets/image/paytao.png">
+                    <img src="assets/image/paygg.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
